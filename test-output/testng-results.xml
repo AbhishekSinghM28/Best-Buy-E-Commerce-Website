@@ -1,41 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-07T09:19:12 IST" name="Default suite" finished-at="2023-04-07T09:20:36 IST" duration-ms="84106">
+  <suite started-at="2023-04-11T10:47:14 IST" name="Suite" finished-at="2023-04-11T10:50:32 IST" duration-ms="197259">
     <groups>
     </groups>
-    <test started-at="2023-04-07T09:19:12 IST" name="Default test" finished-at="2023-04-07T09:20:36 IST" duration-ms="84106">
-      <class name="guvi.TestScenarios.ValidateBrokenURLTest">
-        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.ValidateBrokenURLTest@441772e]" started-at="2023-04-07T09:19:12 IST" name="Startup" finished-at="2023-04-07T09:19:15 IST" duration-ms="3260" status="PASS">
+    <test started-at="2023-04-11T10:47:14 IST" name="Test" finished-at="2023-04-11T10:50:32 IST" duration-ms="197259">
+      <class name="guvi.TestScenarios.PaymentInfoTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.PaymentInfoTest@222545dc]" started-at="2023-04-11T10:49:45 IST" name="Startup" finished-at="2023-04-11T10:49:46 IST" duration-ms="1682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startup -->
-        <test-method signature="BrokenURL()[pri:0, instance:guvi.TestScenarios.ValidateBrokenURLTest@441772e]" started-at="2023-04-07T09:19:15 IST" name="BrokenURL" finished-at="2023-04-07T09:20:36 IST" duration-ms="80646" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="PaymentInformation()[pri:1, instance:guvi.TestScenarios.PaymentInfoTest@222545dc]" started-at="2023-04-11T10:49:46 IST" name="PaymentInformation" finished-at="2023-04-11T10:50:32 IST" duration-ms="45118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInformation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.PaymentInfoTest@222545dc]" started-at="2023-04-11T10:50:32 IST" name="close" finished-at="2023-04-11T10:50:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- guvi.TestScenarios.PaymentInfoTest -->
+      <class name="guvi.TestScenarios.SignupandLoginTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.SignupandLoginTest@62150f9e]" started-at="2023-04-11T10:47:14 IST" name="Startup" finished-at="2023-04-11T10:47:17 IST" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="Signup()[pri:0, instance:guvi.TestScenarios.SignupandLoginTest@62150f9e]" started-at="2023-04-11T10:47:17 IST" name="Signup" finished-at="2023-04-11T10:47:27 IST" duration-ms="10477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.SignupandLoginTest@62150f9e]" started-at="2023-04-11T10:47:27 IST" name="close" finished-at="2023-04-11T10:47:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.SignupandLoginTest@62150f9e]" started-at="2023-04-11T10:47:27 IST" name="Startup" finished-at="2023-04-11T10:47:29 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="Login()[pri:1, instance:guvi.TestScenarios.SignupandLoginTest@62150f9e]" started-at="2023-04-11T10:47:29 IST" name="Login" finished-at="2023-04-11T10:47:39 IST" duration-ms="10213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.SignupandLoginTest@62150f9e]" started-at="2023-04-11T10:47:39 IST" name="close" finished-at="2023-04-11T10:47:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- guvi.TestScenarios.SignupandLoginTest -->
+      <class name="guvi.TestScenarios.ValidateTitlebyMenuNavTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.ValidateTitlebyMenuNavTest@515aebb0]" started-at="2023-04-11T10:47:39 IST" name="Startup" finished-at="2023-04-11T10:47:41 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="TitleValidationbyMenu()[pri:1, instance:guvi.TestScenarios.ValidateTitlebyMenuNavTest@515aebb0]" started-at="2023-04-11T10:47:41 IST" name="TitleValidationbyMenu" finished-at="2023-04-11T10:48:10 IST" duration-ms="28755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleValidationbyMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.ValidateTitlebyMenuNavTest@515aebb0]" started-at="2023-04-11T10:48:10 IST" name="close" finished-at="2023-04-11T10:48:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- guvi.TestScenarios.ValidateTitlebyMenuNavTest -->
+      <class name="guvi.TestScenarios.ValidateBotLinksofHPTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.ValidateBotLinksofHPTest@dd8ba08]" started-at="2023-04-11T10:48:10 IST" name="Startup" finished-at="2023-04-11T10:48:11 IST" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="ValidateBottomLinkofHomePage()[pri:1, instance:guvi.TestScenarios.ValidateBotLinksofHPTest@dd8ba08]" started-at="2023-04-11T10:48:11 IST" name="ValidateBottomLinkofHomePage" finished-at="2023-04-11T10:48:16 IST" duration-ms="4990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBottomLinkofHomePage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.ValidateBotLinksofHPTest@dd8ba08]" started-at="2023-04-11T10:48:16 IST" name="close" finished-at="2023-04-11T10:48:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- guvi.TestScenarios.ValidateBotLinksofHPTest -->
+      <class name="guvi.TestScenarios.ShopbyBrandTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.ShopbyBrandTest@6ae5aa72]" started-at="2023-04-11T10:49:13 IST" name="Startup" finished-at="2023-04-11T10:49:15 IST" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="MenuaShopbyBrand()[pri:1, instance:guvi.TestScenarios.ShopbyBrandTest@6ae5aa72]" started-at="2023-04-11T10:49:15 IST" name="MenuaShopbyBrand" finished-at="2023-04-11T10:49:45 IST" duration-ms="30224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MenuaShopbyBrand -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.ShopbyBrandTest@6ae5aa72]" started-at="2023-04-11T10:49:45 IST" name="close" finished-at="2023-04-11T10:49:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- guvi.TestScenarios.ShopbyBrandTest -->
+      <class name="guvi.TestScenarios.ShopbyDepTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.ShopbyDepTest@6c64cb25]" started-at="2023-04-11T10:48:37 IST" name="Startup" finished-at="2023-04-11T10:48:39 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="MenuaShopbyDep()[pri:1, instance:guvi.TestScenarios.ShopbyDepTest@6c64cb25]" started-at="2023-04-11T10:48:39 IST" name="MenuaShopbyDep" finished-at="2023-04-11T10:49:13 IST" duration-ms="34196" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='c-close-icon c-modal-close-icon']"}
   (Session info: chrome=111.0.5563.148)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [879b2ec9d1276ae43729f6f95425dbaa, getElementAttribute {id=651540f6-53e3-4bfe-a3f5-53325c03a5eb, name=href}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MAS\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53343/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (879b2ec9d1276ae43729f6f95425dbaa)] -> tag name: a]
-Session ID: 879b2ec9d1276ae43729f6f95425dbaa]]>
+Command: [af593553b67f03b65e997fe680ccebf3, findElement {using=xpath, value=//button[@class='c-close-icon c-modal-close-icon']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MAS\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57279/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af593553b67f03b65e997fe680ccebf3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='c-close-icon c-modal-close-icon']"}
   (Session info: chrome=111.0.5563.148)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [879b2ec9d1276ae43729f6f95425dbaa, getElementAttribute {id=651540f6-53e3-4bfe-a3f5-53325c03a5eb, name=href}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MAS\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53343/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (879b2ec9d1276ae43729f6f95425dbaa)] -> tag name: a]
-Session ID: 879b2ec9d1276ae43729f6f95425dbaa
+Command: [af593553b67f03b65e997fe680ccebf3, findElement {using=xpath, value=//button[@class='c-close-icon c-modal-close-icon']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MAS\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57279/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af593553b67f03b65e997fe680ccebf3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -46,10 +126,15 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:158)
-at guvi.PageObject.ValidateBrokenURL.verifyTitle(ValidateBrokenURL.java:48)
-at guvi.TestScenarios.ValidateBrokenURLTest.BrokenURL(ValidateBrokenURLTest.java:18)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at guvi.PageObject.ShopbyDep.shopbyDepartment(ShopbyDep.java:152)
+at guvi.TestScenarios.ShopbyDepTest.MenuaShopbyDep(ShopbyDepTest.java:15)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -78,15 +163,98 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BrokenURL -->
-        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.ValidateBrokenURLTest@441772e]" started-at="2023-04-07T09:20:36 IST" name="close" finished-at="2023-04-07T09:20:36 IST" duration-ms="154" status="PASS">
+        </test-method> <!-- MenuaShopbyDep -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.ShopbyDepTest@6c64cb25]" started-at="2023-04-11T10:49:13 IST" name="close" finished-at="2023-04-11T10:49:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- guvi.TestScenarios.ValidateBrokenURLTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- guvi.TestScenarios.ShopbyDepTest -->
+      <class name="guvi.TestScenarios.SearchAddProductTest">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:guvi.TestScenarios.SearchAddProductTest@245b4bdc]" started-at="2023-04-11T10:48:16 IST" name="Startup" finished-at="2023-04-11T10:48:18 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="SearchandAddProducttoCart()[pri:1, instance:guvi.TestScenarios.SearchAddProductTest@245b4bdc]" started-at="2023-04-11T10:48:18 IST" name="SearchandAddProducttoCart" finished-at="2023-04-11T10:48:37 IST" duration-ms="19542" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="c-button c-button-primary c-button-lg c-button-block c-button-icon c-button-icon-leading add-to-cart-button" type="button" data-sku-id="6509649" data-button-state="ADD_TO_CART" style="padding:0 8px">...</button> is not clickable at point (1137, 33). Other element would receive the click: <div class="store-locator">...</div>
+  (Session info: chrome=111.0.5563.148)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbd53c9ed6bd2e2f83cb5613deeab379, clickElement {id=4d856647-5842-4b21-8b41-bb3c06d2a57e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MAS\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57036}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57036/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bbd53c9ed6bd2e2f83cb5613deeab379)] -> xpath: //button[normalize-space()='Add to Cart']]
+Session ID: bbd53c9ed6bd2e2f83cb5613deeab379]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="c-button c-button-primary c-button-lg c-button-block c-button-icon c-button-icon-leading add-to-cart-button" type="button" data-sku-id="6509649" data-button-state="ADD_TO_CART" style="padding:0 8px">...</button> is not clickable at point (1137, 33). Other element would receive the click: <div class="store-locator">...</div>
+  (Session info: chrome=111.0.5563.148)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbd53c9ed6bd2e2f83cb5613deeab379, clickElement {id=4d856647-5842-4b21-8b41-bb3c06d2a57e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.148, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\MAS\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57036}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57036/devtoo..., se:cdpVersion: 111.0.5563.148, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bbd53c9ed6bd2e2f83cb5613deeab379)] -> xpath: //button[normalize-space()='Add to Cart']]
+Session ID: bbd53c9ed6bd2e2f83cb5613deeab379
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at guvi.PageObject.SearchAddProduct.SearchandAddProduct(SearchAddProduct.java:58)
+at guvi.TestScenarios.SearchAddProductTest.SearchandAddProducttoCart(SearchAddProductTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchandAddProducttoCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:guvi.TestScenarios.SearchAddProductTest@245b4bdc]" started-at="2023-04-11T10:48:37 IST" name="close" finished-at="2023-04-11T10:48:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- guvi.TestScenarios.SearchAddProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

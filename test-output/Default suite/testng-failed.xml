@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="guvi.TestScenarios.ValidateBrokenURLTest">
+      <class name="guvi.TestScenarios.ValidateTitlebyMenuNavTest">
         <methods>
           <include name="Startup"/>
           <include name="close"/>
-          <include name="BrokenURL"/>
+          <include name="HealthandWellnessMenuValidation"/>
         </methods>
-      </class> <!-- guvi.TestScenarios.ValidateBrokenURLTest -->
+      </class> <!-- guvi.TestScenarios.ValidateTitlebyMenuNavTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

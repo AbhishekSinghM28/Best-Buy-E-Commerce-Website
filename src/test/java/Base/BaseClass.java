@@ -19,6 +19,6 @@ public class BaseClass extends Utility {
   @AfterMethod
   public void close() 
   {
-	 driver.quit();
+	 //driver.quit();
   }
 }

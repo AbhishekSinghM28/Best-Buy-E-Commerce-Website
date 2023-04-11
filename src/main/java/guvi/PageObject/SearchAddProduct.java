@@ -1,9 +1,14 @@
 package guvi.PageObject;
 
+import java.time.Duration;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SearchAddProduct 
 {
@@ -27,7 +32,7 @@ public class SearchAddProduct
 	@FindBy(xpath="(//img[@class=\"product-image \"])[1]")
 	WebElement chooseProduct;
 
-	@FindBy(xpath="//button[@data-button-state='ADD_TO_CART']")
+	@FindBy(xpath="//button[normalize-space()='Add to Cart']")
 	WebElement buttonAddtoCart;
 
 
@@ -43,8 +48,13 @@ public class SearchAddProduct
 		feildSearchBar.sendKeys("MacBook Air 13.6\" Laptop - Apple M2 chip");
 		buttonSearchBar.click();
 		chooseProduct.click();
+				
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0,2300)");
+		
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(buttonAddtoCart));
+		
 		buttonAddtoCart.click();
-		
-		
 	}
 }

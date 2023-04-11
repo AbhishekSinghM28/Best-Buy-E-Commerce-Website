@@ -7,7 +7,7 @@ import guvi.PageObject.SearchAddProduct;
 
 public class SearchAddProductTest extends BaseClass
 {
-	@Test
+	@Test(priority=1)
 	public void SearchandAddProducttoCart() 
 	{
 		SearchAddProduct addproduct=new SearchAddProduct(driver);
