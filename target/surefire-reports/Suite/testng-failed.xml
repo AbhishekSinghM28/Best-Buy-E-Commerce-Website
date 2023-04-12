@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="guvi.TestScenarios.SearchAddProductTest">
+        <methods>
+          <include name="SearchandAddProducttoCart"/>
+          <include name="Startup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- guvi.TestScenarios.SearchAddProductTest -->
+      <class name="guvi.TestScenarios.ShopbyBrandTest">
+        <methods>
+          <include name="Startup"/>
+          <include name="close"/>
+          <include name="MenuaShopbyBrand"/>
+        </methods>
+      </class> <!-- guvi.TestScenarios.ShopbyBrandTest -->
+      <class name="guvi.TestScenarios.SignupandLoginTest">
+        <methods>
+          <include name="Signup"/>
+          <include name="Startup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- guvi.TestScenarios.SignupandLoginTest -->
+      <class name="guvi.TestScenarios.ValidateTitlebyMenuNavTest">
+        <methods>
+          <include name="Startup"/>
+          <include name="close"/>
+          <include name="TitleValidationbyMenu"/>
+        </methods>
+      </class> <!-- guvi.TestScenarios.ValidateTitlebyMenuNavTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
